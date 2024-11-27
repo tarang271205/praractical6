@@ -1,0 +1,61 @@
+Program: 6 The Finance Department needs a simple calculator program to perform basic 
+arithmetic operations for internal calculations. Given two fixed numbers write a 
+program to perform addition, subtraction, multiplication, and division based on 
+entered signs +, -, *, / respectively and display the appropriate result. 
+Code:     //Practical 6:Create Simple Calculator. 
+#include<stdio.h> 
+void main() 
+{ 
+    float A,B; 
+ char o; 
+    printf("Enter Your First Value="); 
+    scanf("%f",&A); 
+    printf("Enter Your Second Value="); 
+    scanf("%f",&B); 
+    printf("Here\n+ For Addition\n- For Subtraction\n* For Multiplication\n/ For Division\n"); 
+    printf("Enter Your Valid Operator="); 
+    fflush(stdin); 
+    scanf("%c",&o); 
+    switch(o) 
+    { 
+    case '+': printf("Your Final Value=%f\n\n",A+B); 
+        break; 
+    case '-': printf("Your Final Value=%f\n\n",A-B); 
+        break; 
+    case '*': printf("Your Final Value=%f\n\n",A*B); 
+        break; 
+    case '/':  if(B!=0)
+      { printf("Your Final Value=%f",A/B); 
+        } 
+        else 
+        {   printf("ERROR!!!!!!\n\n\n\n\n\n\n");  } 
+        break; 
+     default: 
+            printf("Please Select Valid Operator\n\n\n\n\n\n"); 
+ }
+   { printf("Your Final Value=%f",A/B); 
+        } 
+        else 
+        {   printf("ERROR!!!!!!\n\n\n\n\n\n\n");  } 
+        break; 
+     default: 
+            printf("Please Select Valid Operator\n\n\n\n\n\n"); 
+ }
+   { printf("Your Final Value=%f",A/B); 
+        } 
+        else 
+        {   printf("ERROR!!!!!!\n\n\n\n\n\n\n");  } 
+        break; 
+     default: 
+            printf("Please Select Valid Operator\n\n\n\n\n\n"); 
+ }
+   { printf("Your Final Value=%f",A/B); 
+        } 
+        else 
+        {   printf("ERROR!!!!!!\n\n\n\n\n\n\n");  } 
+        break; 
+     default: 
+            printf("Please Select Valid Operator\n\n\n\n\n\n"); 
+ }
+ printf("24CE032_TARANG\n\n");
+ }
